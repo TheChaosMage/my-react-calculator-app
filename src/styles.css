@@ -4,11 +4,13 @@
 }
 body{
 margin: 0;
-background: linear-gradient(to right, #00AAFF, #00FF6C);
+background: linear-gradient(to top, #00AAFF, #ffee00);
+height: 100vh;
 }
 
 
 .calculator-grid{
+    border-radius: 10px;
     display: grid;
     justify-content: center;
     margin-top: 2rem;
@@ -23,6 +25,7 @@ background: linear-gradient(to right, #00AAFF, #00FF6C);
     border: 1px solid white;
     outline: none;
     background-color: rgba(255, 255, 255, 0.723);
+    border-radius: 10px;
 }
 
 .calculator-grid > button:hover,
@@ -32,9 +35,11 @@ background: linear-gradient(to right, #00AAFF, #00FF6C);
 
 .span-two{
     grid-column: span 2;
+    border-radius: 10px;
 }
 
 .output{
+    border-radius: 10px;
     grid-column: 1 / -1;
     background-color: rgba(0, 0, 0, 0.422);
     display: flex;
